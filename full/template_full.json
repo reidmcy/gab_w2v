@@ -1,13 +1,13 @@
 {
-embeddings: [
-{
-tensorName: "Gab full corpus top 10,000",
-tensorShape: [
-10000,
-256
-],
-tensorPath: "https://github.com/reidmcy/gab_w2v/raw/master/full/full_w2v.tsv",
-metadataPath: "https://github.com/reidmcy/gab_w2v/raw/master/full/full_w2v_keys.tsv"
-}
-]
+  "embeddings": [
+    {
+      "tensorName": "Gab",
+      "tensorShape": [
+        10000,
+        256
+      ],
+      "tensorPath": "https://github.com/reidmcy/gab_w2v/raw/master/full/full_w2v.tsv",
+      "metadataPath": "https://github.com/reidmcy/gab_w2v/raw/master/full/full_w2v_keys.tsv"
+    }
+  ]
 }
